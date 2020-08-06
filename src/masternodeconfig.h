@@ -100,7 +100,6 @@ public:
     }
 
     void clear();
-    bool append(std::string path, std::string line );
     bool read(std::string& strErr);
     void add(std::string alias, std::string ip, std::string privKey, std::string txHash, std::string outputIndex, 
             std::string txHashBurnFund, std::string outputIndexBurnFund);
