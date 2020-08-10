@@ -813,7 +813,7 @@ LogPrintf("nodeSetupCheckInvoiceStatus no txID \n");
             mPaymentTx = nodeSetupSendToAddress( paymentAddress, invoiceAmount, invoiceTimer );
             if ( mPaymentTx != "" ) {
                 nodeSetupSetPaymentTx(mPaymentTx);
-                ui->labelMessage->setText( "Payment finished, please wait until platform confirms payment to proceed to node creation." );
+                ui->labelMessage->setText( "Payment finished, please wait until platform confirms payment and proceed to node creation." );
                 ui->btnSetup->setEnabled(false);
                 ui->btnSetupReset->setEnabled(false);
                 if ( !invoiceTimer->isActive() )  {
