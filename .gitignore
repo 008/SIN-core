@@ -144,3 +144,4 @@ src/test/test_sin
 src/test/test_sin_fuzzy
 
 test/cache/*
+bootstrap.zip
